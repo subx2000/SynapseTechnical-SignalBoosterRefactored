@@ -1,28 +1,25 @@
-using System;
-using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
 using SignalBoosterRefactored.Interfaces;
-using SignalBoosterRefactored.Models;
 
 namespace SignalBoosterRefactored.Services
 {
     /// <summary>
     /// Main orchestrator that coordinates the entire DME data processing workflow
     /// </summary>
-    public class DmeDataProcessor : SignalBoosterRefactored.Interfaces.IDmeDataProcessor
+    public class DmeDataProcessor : IDmeDataProcessor
     {
         private readonly ILogger<DmeDataProcessor> _logger;
-        private readonly SignalBoosterRefactored.Interfaces.IPhysicianNoteReader _noteReader;
-        private readonly SignalBoosterRefactored.Interfaces.IDmeDataExtractor _dataExtractor;
-        private readonly SignalBoosterRefactored.Interfaces.IApiClient _apiClient;
+        private readonly IPhysicianNoteReader _noteReader;
+        private readonly IDmeDataExtractor _dataExtractor;
+        private readonly IApiClient _apiClient;
         private readonly IConfiguration _configuration;
 
         public DmeDataProcessor(
             ILogger<DmeDataProcessor> logger,
-            SignalBoosterRefactored.Interfaces.IPhysicianNoteReader noteReader,
-            SignalBoosterRefactored.Interfaces.IDmeDataExtractor dataExtractor,
-            SignalBoosterRefactored.Interfaces.IApiClient apiClient,
+            IPhysicianNoteReader noteReader,
+            IDmeDataExtractor dataExtractor,
+            IApiClient apiClient,
             IConfiguration configuration)
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
