@@ -9,6 +9,7 @@ A refactored application for extracting Durable Medical Equipment (DME) informat
   * Used for initial project creation (I've never created one from scratch in VS Code, always VS.)  
   * Streamlined creating classes/interfaces instead of hand writing
   * Created the regex for text matching
+  * Create some unit testing
 
 ## Improvements
 * Improved architecture, readability, maintainability, and scalability
