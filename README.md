@@ -37,8 +37,9 @@ Future Improvements
 
 
 How to Run
-1: Restore Dependencies
+1: Restore Dependencies and build
     * bash: dotnet restore
+    * bash: dotnet build
 
 2: Configure Input File
    * Place your physician note in the root directory
