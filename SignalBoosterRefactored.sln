@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalBooster.Tests", "SignalBooster.Tests\SignalBooster.Tests.csproj", "{0CCB1FB1-3491-0221-0F3B-94D756D49740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalBoosterRefactored", "SignalBoosterRefactored\SignalBoosterRefactored.csproj", "{245A8828-DB21-9452-A055-E19136B5F3F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CCB1FB1-3491-0221-0F3B-94D756D49740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CCB1FB1-3491-0221-0F3B-94D756D49740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CCB1FB1-3491-0221-0F3B-94D756D49740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CCB1FB1-3491-0221-0F3B-94D756D49740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{245A8828-DB21-9452-A055-E19136B5F3F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245A8828-DB21-9452-A055-E19136B5F3F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245A8828-DB21-9452-A055-E19136B5F3F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{245A8828-DB21-9452-A055-E19136B5F3F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF47860-2CEA-F379-09D8-9AEF27965D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF47860-2CEA-F379-09D8-9AEF27965D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF47860-2CEA-F379-09D8-9AEF27965D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF47860-2CEA-F379-09D8-9AEF27965D12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {834A0BBB-D622-47D0-99B7-E030B09D5639}
+	EndGlobalSection
+EndGlobal

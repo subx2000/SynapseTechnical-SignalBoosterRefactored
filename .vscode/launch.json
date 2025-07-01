@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch SignalBoosterRefactored",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/SignalBoosterRefactored/bin/Debug/net8.0/SignalBoosterRefactored.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/SignalBoosterRefactored",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        }
+    ]
+}

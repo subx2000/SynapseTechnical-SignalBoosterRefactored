@@ -1,0 +1,9 @@
+Patient Name: John Recovery
+DOB: 05/15/1968
+Diagnosis: Post-surgical Recovery
+
+Patient requires hospital bed with adjustable head and foot sections for proper positioning during recovery period. Patient has limited mobility and needs assistance with positioning.
+
+Medical bed should include side rails for safety and mattress overlay for pressure relief.
+
+Ordering Physician: Dr. Recovery
